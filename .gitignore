@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+# Environment
+.env
+
+# Test artifacts
+test-results
+.playwright-mcp
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
