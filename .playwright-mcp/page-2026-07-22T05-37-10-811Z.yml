@@ -1,0 +1,51 @@
+- generic [ref=f2e3]:
+  - navigation [ref=f2e4]:
+    - generic [ref=f2e6]:
+      - link "FormCraft PDF Workspace" [ref=f2e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f2e12]:
+          - generic [ref=f2e13]: FormCraft PDF
+          - generic [ref=f2e14]: Workspace
+      - generic [ref=f2e15]:
+        - link [ref=f2e16] [cursor=pointer]:
+          - /url: /templates
+          - button "Templates" [ref=f2e17]
+        - generic [ref=f2e19]: playwright@test.com
+        - button "Sign Out" [ref=f2e24] [cursor=pointer]
+  - main [ref=f2e29]:
+    - generic [ref=f2e30]:
+      - generic [ref=f2e31]:
+        - link [ref=f2e32] [cursor=pointer]:
+          - /url: /templates
+        - generic [ref=f2e35]:
+          - heading "Create Template" [level=1] [ref=f2e36]
+          - paragraph [ref=f2e37]: Set up a template step by step
+      - generic [ref=f2e38]:
+        - generic [ref=f2e44]:
+          - generic [ref=f2e45]: Template Details
+          - generic [ref=f2e46]: Metadata
+        - generic [ref=f2e52]:
+          - generic [ref=f2e53]: Form Config
+          - generic [ref=f2e54]: Inputs
+        - generic [ref=f2e57]:
+          - generic [ref=f2e58]: "3"
+          - generic [ref=f2e59]:
+            - generic [ref=f2e60]: PDF Placement
+            - generic [ref=f2e61]: Layout Design
+      - generic [ref=f2e107]:
+        - generic [ref=f2e110]:
+          - generic [ref=f2e111]:
+            - heading "Upload PDF Template" [level=3] [ref=f2e112]
+            - button "Choose PDF" [ref=f2e114] [cursor=pointer]
+            - paragraph [ref=f2e130]: PDF uploaded
+          - generic [ref=f2e115]:
+            - heading "Fields (1)" [level=3] [ref=f2e116]
+            - button "Applicant Name unplaced text" [ref=f2e118] [cursor=pointer]:
+              - generic [ref=f2e119]:
+                - generic [ref=f2e120]: Applicant Name
+                - generic [ref=f2e121]: unplaced
+              - text: text
+        - generic [ref=f2e125]:
+          - button "Back to Config" [ref=f2e126] [cursor=pointer]
+          - button "Finish Template" [ref=f2e129] [cursor=pointer]
+  - contentinfo [ref=f2e86]: PDF Form Generator

@@ -1,0 +1,21 @@
+- generic [ref=f15e3]:
+  - navigation [ref=f15e4]:
+    - generic [ref=f15e6]:
+      - link "FormCraft PDF Workspace" [ref=f15e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f15e12]:
+          - generic [ref=f15e13]: FormCraft PDF
+          - generic [ref=f15e14]: Workspace
+      - link [ref=f15e16] [cursor=pointer]:
+        - /url: /
+        - button "Sign In" [ref=f15e17]
+  - main [ref=f15e18]:
+    - generic [ref=f15e21]:
+      - link [ref=f15e22] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f15e25]:
+        - generic [ref=f15e26]:
+          - heading "User Management" [level=1] [ref=f15e27]
+          - generic [ref=f15e28]: Live Connected
+        - paragraph [ref=f15e31]: Audit active accounts, change permission levels, and monitor system metrics
+  - contentinfo [ref=f15e37]: PDF Form Generator

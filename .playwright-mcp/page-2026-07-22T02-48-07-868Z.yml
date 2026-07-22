@@ -1,0 +1,28 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e6]:
+      - link "FormCraft PDF Workspace" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e12]:
+          - generic [ref=e13]: FormCraft PDF
+          - generic [ref=e14]: Workspace
+      - link [ref=e16] [cursor=pointer]:
+        - /url: /
+        - button "Sign In" [active] [ref=e17]
+  - main [ref=e18]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - heading "FormCraft PDF" [level=1] [ref=e28]
+        - paragraph [ref=e29]: Upload PDF templates, build fillable forms, and automatically generate polished documents.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Sign In to Workspace" [level=2] [ref=e32]
+          - paragraph [ref=e33]: Access your document builder using a magic link.
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]: Email address
+            - textbox "you@example.com" [ref=e37]: test@example.com
+          - paragraph [ref=e41]: email rate limit exceeded
+          - button "Send Magic Link" [ref=e38] [cursor=pointer]
+        - paragraph [ref=e39]: We'll email you a secure link for password-less authentication.
+  - contentinfo [ref=e40]: PDF Form Generator

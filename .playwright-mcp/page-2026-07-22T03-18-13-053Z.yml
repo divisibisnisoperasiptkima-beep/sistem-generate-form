@@ -1,0 +1,144 @@
+- generic [ref=f10e3]:
+  - navigation [ref=f10e4]:
+    - generic [ref=f10e6]:
+      - link "FormCraft PDF Workspace" [ref=f10e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f10e12]:
+          - generic [ref=f10e13]: FormCraft PDF
+          - generic [ref=f10e14]: Workspace
+      - link [ref=f10e16] [cursor=pointer]:
+        - /url: /
+        - button "Sign In" [ref=f10e17]
+  - main [ref=f10e18]:
+    - generic [ref=f10e19]:
+      - generic [ref=f10e21]:
+        - link [ref=f10e22] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f10e25]:
+          - generic [ref=f10e26]:
+            - heading "User Management" [level=1] [ref=f10e27]
+            - generic [ref=f10e28]: Admin Area
+          - paragraph [ref=f10e29]: Audit active accounts, change permission levels, and monitor system metrics
+      - generic [ref=f10e30]:
+        - generic [ref=f10e31]:
+          - generic [ref=f10e32]: Total Accounts
+          - heading "5" [level=3] [ref=f10e40]
+          - paragraph [ref=f10e41]:
+            - generic [ref=f10e45]: +24%
+            - text: vs last month
+        - generic [ref=f10e46]:
+          - generic [ref=f10e47]: Active Sessions
+          - heading "3" [level=3] [ref=f10e54]
+          - paragraph [ref=f10e55]:
+            - generic [ref=f10e56]: 60%
+            - text: active usage rate
+        - generic [ref=f10e57]:
+          - generic [ref=f10e58]: Templates Built
+          - heading "27" [level=3] [ref=f10e64]
+          - paragraph [ref=f10e65]: Avg 5.4 per user account
+        - generic [ref=f10e66]:
+          - generic [ref=f10e67]: PDFs Generated
+          - heading "1796" [level=3] [ref=f10e72]
+          - paragraph [ref=f10e73]: Across all template forms
+      - generic [ref=f10e74]:
+        - generic [ref=f10e75]:
+          - textbox "Search users by email..." [ref=f10e80]
+          - generic [ref=f10e81]:
+            - generic [ref=f10e82]: "Filter By:"
+            - combobox [ref=f10e86]:
+              - option "All Roles" [selected]
+              - option "Admin"
+              - option "Editor"
+              - option "Viewer"
+            - combobox [ref=f10e87]:
+              - option "All Statuses" [selected]
+              - option "Active"
+              - option "Suspended"
+              - option "Pending"
+        - table [ref=f10e89]:
+          - rowgroup [ref=f10e90]:
+            - row [ref=f10e91]:
+              - columnheader "User" [ref=f10e92]
+              - columnheader "Role" [ref=f10e93]
+              - columnheader "Status" [ref=f10e94]
+              - columnheader "Templates" [ref=f10e95]
+              - columnheader "PDFs Gen" [ref=f10e96]
+              - columnheader "Joined" [ref=f10e97]
+              - columnheader "Actions" [ref=f10e98]
+          - rowgroup [ref=f10e99]:
+            - row [ref=f10e100]:
+              - cell "admin@formcraft.com" [ref=f10e101]
+              - cell "Admin" [ref=f10e102]:
+                - combobox [ref=f10e103] [cursor=pointer]:
+                  - option "Admin" [selected]
+                  - option "Editor"
+                  - option "Viewer"
+              - cell "Active" [ref=f10e104]
+              - cell "15" [ref=f10e106]
+              - cell "1240" [ref=f10e107]
+              - cell "Jan 15, 2026" [ref=f10e108]
+              - cell [ref=f10e109]:
+                - generic [ref=f10e110]:
+                  - button "Suspend Account" [ref=f10e111] [cursor=pointer]
+                  - button "Delete User" [ref=f10e115] [cursor=pointer]
+            - row [ref=f10e119]:
+              - cell "sarah.jones@company.com" [ref=f10e120]
+              - cell "Editor" [ref=f10e121]:
+                - combobox [ref=f10e122] [cursor=pointer]:
+                  - option "Admin"
+                  - option "Editor" [selected]
+                  - option "Viewer"
+              - cell "Active" [ref=f10e123]
+              - cell "8" [ref=f10e125]
+              - cell "452" [ref=f10e126]
+              - cell "Mar 22, 2026" [ref=f10e127]
+              - cell [ref=f10e128]:
+                - generic [ref=f10e129]:
+                  - button "Suspend Account" [ref=f10e130] [cursor=pointer]
+                  - button "Delete User" [ref=f10e134] [cursor=pointer]
+            - row [ref=f10e138]:
+              - cell "developer@formcraft.com" [ref=f10e139]
+              - cell "Editor" [ref=f10e140]:
+                - combobox [ref=f10e141] [cursor=pointer]:
+                  - option "Admin"
+                  - option "Editor" [selected]
+                  - option "Viewer"
+              - cell "Active" [ref=f10e142]
+              - cell "4" [ref=f10e144]
+              - cell "92" [ref=f10e145]
+              - cell "May 10, 2026" [ref=f10e146]
+              - cell [ref=f10e147]:
+                - generic [ref=f10e148]:
+                  - button "Suspend Account" [ref=f10e149] [cursor=pointer]
+                  - button "Delete User" [ref=f10e153] [cursor=pointer]
+            - row [ref=f10e157]:
+              - cell "guest.viewer@partner.com" [ref=f10e158]
+              - cell "Viewer" [ref=f10e159]:
+                - combobox [ref=f10e160] [cursor=pointer]:
+                  - option "Admin"
+                  - option "Editor"
+                  - option "Viewer" [selected]
+              - cell "Suspended" [ref=f10e161]
+              - cell "0" [ref=f10e163]
+              - cell "12" [ref=f10e164]
+              - cell "Jun 1, 2026" [ref=f10e165]
+              - cell [ref=f10e166]:
+                - generic [ref=f10e167]:
+                  - button "Activate Account" [ref=f10e168] [cursor=pointer]
+                  - button "Delete User" [ref=f10e173] [cursor=pointer]
+            - row [ref=f10e177]:
+              - cell "pending.user@startup.io" [ref=f10e178]
+              - cell "Viewer" [ref=f10e179]:
+                - combobox [ref=f10e180] [cursor=pointer]:
+                  - option "Admin"
+                  - option "Editor"
+                  - option "Viewer" [selected]
+              - cell "Pending" [ref=f10e181]
+              - cell "0" [ref=f10e183]
+              - cell "0" [ref=f10e184]
+              - cell "Jul 21, 2026" [ref=f10e185]
+              - cell [ref=f10e186]:
+                - generic [ref=f10e187]:
+                  - button "Activate Account" [ref=f10e188] [cursor=pointer]
+                  - button "Delete User" [ref=f10e193] [cursor=pointer]
+  - contentinfo [ref=f10e197]: PDF Form Generator

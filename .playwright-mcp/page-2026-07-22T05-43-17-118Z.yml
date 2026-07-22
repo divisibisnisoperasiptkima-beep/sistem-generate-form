@@ -1,0 +1,35 @@
+- generic [ref=f3e3]:
+  - navigation [ref=f3e4]:
+    - generic [ref=f3e6]:
+      - link "FormCraft PDF Workspace" [ref=f3e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f3e12]:
+          - generic [ref=f3e13]: FormCraft PDF
+          - generic [ref=f3e14]: Workspace
+      - generic [ref=f3e15]:
+        - link [ref=f3e16] [cursor=pointer]:
+          - /url: /templates
+          - button "Templates" [ref=f3e17]
+        - generic [ref=f3e19]: playwright@test.com
+        - button "Sign Out" [ref=f3e24] [cursor=pointer]
+  - main [ref=f3e29]:
+    - generic [ref=f3e30]:
+      - generic [ref=f3e31]:
+        - link [ref=f3e32] [cursor=pointer]:
+          - /url: /templates
+        - generic [ref=f3e35]:
+          - heading "Create Template" [level=1] [ref=f3e36]
+          - paragraph [ref=f3e37]: Set up a template step by step
+      - generic [ref=f3e38]:
+        - generic [ref=f3e44]:
+          - generic [ref=f3e45]: Template Details
+          - generic [ref=f3e46]: Metadata
+        - generic [ref=f3e54]:
+          - generic [ref=f3e55]: Form Config
+          - generic [ref=f3e56]: Inputs
+        - generic [ref=f3e60]:
+          - generic [ref=f3e61]: "3"
+          - generic [ref=f3e62]:
+            - generic [ref=f3e63]: PDF Placement
+            - generic [ref=f3e64]: Layout Design
+  - contentinfo [ref=f3e71]: PDF Form Generator

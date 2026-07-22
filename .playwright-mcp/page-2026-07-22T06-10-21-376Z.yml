@@ -1,0 +1,16 @@
+- generic [ref=f9e3]:
+  - navigation [ref=f9e4]:
+    - generic [ref=f9e6]:
+      - link "FormCraft PDF Workspace" [ref=f9e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f9e12]:
+          - generic [ref=f9e13]: FormCraft PDF
+          - generic [ref=f9e14]: Workspace
+      - generic [ref=f9e15]:
+        - link [ref=f9e16] [cursor=pointer]:
+          - /url: /templates
+          - button "Templates" [ref=f9e17]
+        - generic [ref=f9e19]: playwright@test.com
+        - button "Sign Out" [ref=f9e24] [cursor=pointer]
+  - main [ref=f9e29]
+  - contentinfo [ref=f9e35]: PDF Form Generator

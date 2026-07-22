@@ -1,0 +1,34 @@
+- generic [ref=f1e8]:
+  - navigation [ref=f1e9]:
+    - generic [ref=f1e11]:
+      - link "FormCraft PDF Workspace" [ref=f1e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e17]:
+          - generic [ref=f1e18]: FormCraft PDF
+          - generic [ref=f1e19]: Workspace
+      - link [ref=f1e21] [cursor=pointer]:
+        - /url: /
+        - button "Sign In" [ref=f1e22]
+  - main [ref=f1e23]:
+    - generic [ref=f1e27]:
+      - generic [ref=f1e28]:
+        - heading "FormCraft PDF" [level=1] [ref=f1e33]
+        - paragraph [ref=f1e34]: Upload PDF templates, build fillable forms, and automatically generate polished documents.
+      - generic [ref=f1e35]:
+        - generic [ref=f1e36]:
+          - heading "Sign In" [level=2] [ref=f1e37]
+          - paragraph [ref=f1e38]: Enter your credentials to access your workspace.
+        - generic [ref=f1e39]:
+          - generic [ref=f1e40]:
+            - generic [ref=f1e41]: Email address
+            - textbox "you@example.com" [ref=f1e42]
+          - generic [ref=f1e43]:
+            - generic [ref=f1e44]: Password
+            - textbox "Min. 8 characters" [ref=f1e45]
+          - button "Sign In" [ref=f1e46] [cursor=pointer]
+        - paragraph [ref=f1e47]:
+          - text: Don't have an account?
+          - button "Sign Up" [ref=f1e48] [cursor=pointer]
+        - paragraph [ref=f1e49]:
+          - button "Forgot password?" [ref=f1e50] [cursor=pointer]
+  - contentinfo [ref=f1e51]: PDF Form Generator
